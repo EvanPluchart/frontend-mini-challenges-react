@@ -17,7 +17,7 @@ export default function AccordionItem({title, opened = false, children}: Accordi
                 <button
                     onClick={() => setIsOpen(!isOpen)}
                     className={'text-4xl'}
-                >{isOpen ? <AiOutlineMinusCircle /> : <AiOutlinePlusCircle />}</button>
+                >{isOpen ? <AiOutlineMinusCircle className={'hover:text-slate-600'} /> : <AiOutlinePlusCircle className={'hover:text-slate-600'} />}</button>
             </div>
             {isOpen && children}
         </div>
