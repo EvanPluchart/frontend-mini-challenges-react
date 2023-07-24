@@ -6,7 +6,7 @@ export default function Counter() {
     const [step, setStep] = useState<number>(1);
 
     return (
-        <div>
+        <div className={'w-full'}>
             <div className={'flex flex-col mb-4 gap-2'}>
                 <h1 className={'font-bold text-2xl md:text-4xl'}>Challenge 1 : Compteur</h1>
                 <p>Possibilité de choisir un valeur afin d'incrémenter ou de décrémenter un compteur.</p>
