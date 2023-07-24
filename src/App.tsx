@@ -2,6 +2,7 @@ import './App.css'
 import Counter from "./components/Counter";
 import Accordion from "./components/Accordion";
 import NumberGuesser from "./components/NumberGuesser";
+import Themes from "./components/Themes";
 
 export default function App() {
     return (
@@ -9,6 +10,7 @@ export default function App() {
             <Counter />
             <Accordion />
             <NumberGuesser />
+            <Themes />
         </div>
     );
 }
